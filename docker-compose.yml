@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     image: application
     volumes:
-      - ./myscript.php
+      - myscript.php
     ports:
       - 80:80
       - 433:433
