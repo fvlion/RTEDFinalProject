@@ -7,8 +7,8 @@ pipeline {
             echo 'Build process..'
             sh 'ls'
             sh 'pwd'
-            sh 'docker-compose.yml build'
-            sh 'docker-compose.yml up -d'
+            sh 'docker compose build'
+            sh 'docker compose up -d'
                }
             }
         }
