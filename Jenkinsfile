@@ -5,8 +5,8 @@ pipeline {
       stage('Build and start containers') {
          steps {
             echo 'Build process..'
-            ls
-            pwd
+            sh 'ls'
+            sh 'pwd'
             sh 'docker-compose.yml build'
             sh 'docker-compose.yml up -d'
                }
