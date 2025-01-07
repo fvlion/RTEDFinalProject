@@ -7,7 +7,6 @@ services:
     image: application
     ports:
       - 80:80
-      - 433:433
   db:
     image: mysql
     environment:
