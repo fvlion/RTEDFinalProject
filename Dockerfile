@@ -5,7 +5,7 @@ RUN a2enmod ssl && a2enmod rewrite
 RUN mkdir -p /etc/apache2/ssl
 RUN mkdir -p /var/www/inc
 WORKDIR /var/www/html
-COPY ./SamplePage.php /var/www/html/
+COPY ./index.php /var/www/html/
 WORKDIR /var/www/inc
 COPY ./dbinfo.inc /var/www/inc
 WORKDIR /var/www/html
