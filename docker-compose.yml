@@ -7,8 +7,3 @@ services:
     image: application
     ports:
       - 80:80
-  db:
-    image: mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: database.sql
