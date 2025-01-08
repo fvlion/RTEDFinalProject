@@ -11,6 +11,6 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: index
+      MYSQL_DATABASE: database.sql
     ports:
       - 3306:3306
