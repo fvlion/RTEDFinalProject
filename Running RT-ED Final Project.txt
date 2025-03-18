@@ -1,0 +1,8 @@
+Running RT-ED Final Project, using GitHub and Jenkins:
+
+1.Settings up Master and Agent on Jenkins dashboard.
+2.Make a New Item -> Pipeline
+3.Check GitHub Project and paste this project URL https://github.com/fvlion/RTEDFinalProject
+4.Open Jenkinsfile from the GitHub repo
+5.Copy the code and paste to the Pipeline script section
+6.Run the Job in Jenkins
